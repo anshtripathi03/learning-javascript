@@ -1,0 +1,22 @@
+let num = "33"
+let bool = true
+
+//console.log(typeof num);
+
+let score = Number(num)
+
+//console.log(typeof score);
+//console.log(score)
+//console.log(bool);
+
+
+// "33" = number
+// "33abc" = NaN
+// "true" = 1, "false" =0
+
+let booleanIn = Boolean(score)
+console.log(booleanIn);
+
+// 1 = true, 0 = false
+// "" = false, "scbjhwb" = true
+
