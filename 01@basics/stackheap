@@ -1,0 +1,22 @@
+let num = 1234
+let score = num
+
+console.log(score)
+
+score = 33
+
+console.log(num)
+console.log(score)
+
+const arr = ["ironman", "captain", "thor"]
+const heroes = arr
+
+console.log(heroes)
+
+heroes[1] = "hulk"
+
+console.log(arr)
+
+//primitive datatypes carry their memoeries in stack form which sends a copy when asled from other variable
+//non primitive datatypes carry their data in heaps and sends a reference of that heap where asked from another variable
+
